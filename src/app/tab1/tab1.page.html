@@ -1,17 +1,113 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="background-wrapper">
+    <div class="background-circle">
+      <div class="background-circle1">
+        <div class="background-circle2">
+        </div>
+      </div>
+    </div>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+    <div class="data">
+      <h1>$2,589.50</h1>
+      <h3>Available Balance</h3>
+    </div>
+    <div class="fotoo">
+      <ion-col>
+        <img src="assets/icon/bell.png" alt="">
+      </ion-col>
+    </div>
+
+    <div class="foto">
+      <ion-col>
+        <img src="assets/images/goku.png" alt="">
+      </ion-col>
+    </div>
+
+    <!-- icon-->
+    <div class="row">
+      <ion-list>
+        <div class="column">
+          <img src="assets/icon/send.png" alt="">
+          <h5>Send</h5>
+        </div>
+        <div class="column">
+          <img src="assets/icon/contact.png">
+          <h5>Request</h5>
+        </div>
+        <div class="column">
+          <img src="assets/icon/bank.png">
+          <h5>Loan</h5>
+        </div>
+        <div class="column">
+          <img src="assets/icon/shopping.png">
+          <h5>Top Up</h5>
+        </div>
+      </ion-list>
+    </div>
+
+    <div class="background-wrapper">
+      <ion-title>Recent Transsactions</ion-title>
+      <h6>See All</h6>
+
+      <div class="tombol">
+        <ion-button color="light" shape="round">All</ion-button>
+        <ion-button color="light" shape="round">
+          <ion-icon name="arrow-down-circle" color="success"></ion-icon>
+          &nbsp;&nbsp; Income
+        </ion-button>
+        <ion-button color="light" shape="round">
+          <ion-icon name="arrow-up-circle" color="danger"></ion-icon>
+          &nbsp;&nbsp; Expanse
+        </ion-button>
+      </div>20px
+
+      <div class="bar">
+        <h2>TODAY</h2>
+      </div>
+
+      <div class="list-data">
+        <ion-list class="list">
+          <ion-item>
+            <ion-avatar slot="start">
+              <img src="assets/icon/shopping-cart.png">
+            </ion-avatar>
+            <ion-label>
+              <h1>Grocery</h1>
+              <h2>Eataly downtown</h2>
+              <p>-$50.68</p>
+            </ion-label>
+          </ion-item>
+        </ion-list>
+        <ion-list class="list1">
+          <ion-item>
+            <ion-avatar slot="start">
+              <img src="assets/icon/car.png">
+            </ion-avatar>
+            <ion-label>
+              <h1>Transport</h1>
+              <h2>Uber Pool</h2>
+              <p>-$6.00</p>
+            </ion-label>
+          </ion-item>
+        </ion-list>
+      </div>
+      <div class="bar1">
+        <h2>YESTERDAY</h2>
+      </div>
+
+      <div class="gambar2">
+        <ion-list>
+          <ion-item>
+            <ion-avatar slot="start">
+              <img src="assets/icon/wallet.png">
+            </ion-avatar>
+            <ion-label>
+              <h4>Payment</h4>
+              <p>Payment for Andre</p>
+            </ion-label>
+          </ion-item>
+        </ion-list>
+      </div>
+    </div>
+  </div>
 </ion-content>

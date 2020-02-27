@@ -1,17 +1,28 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-title>
-      Tab 3
+      Login
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="background-wrapper" class="inner-scrol">
+    <div class="login">
+      <div class="form" padding>
+        <h2>Login</h2>
+        <ion-list>
+          <ion-item class="kotak">
+            <ion-input placeholder="Username" [(ngModel)]="Username"></ion-input>
+          </ion-item>
+          <ion-item class="kotak1">
+            <ion-input placeholder="Password" type="Password" [(ngModel)]="Password"></ion-input>
+          </ion-item>
+        </ion-list>
+        <ion-button color="primary" shape="round">Log In</ion-button>
+        <ion-button color="primary" shape="round">Register</ion-button>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+      </div>
+    </div>
+  </div>
 </ion-content>

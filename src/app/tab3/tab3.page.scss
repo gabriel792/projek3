@@ -1,3 +1,16 @@
-ion-content ion-toolbar {
-  --background: translucent;
+.background-wrapper {
+  background-color: rgb(101, 101, 167);
+}
+
+.login {
+  margin: 54px;
+  /* background-color: blue; */
+  position: absolute;
+  top: 9pc;
+}
+
+h2 {
+  margin-top: 18px;
+  font-size: 24px;
+  text-align: center;
 }
